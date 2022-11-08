@@ -1,0 +1,109 @@
+body{
+    background-color: #db2b2b;
+    text-align: center;
+}
+
+p{
+	font-family: Verdana;
+	font-size: 13px;
+	text-align: justify;
+}
+
+#page {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 960px;
+    border-radius: 5px;
+}
+
+#menu{
+	height: 30px;
+	width: 960px;
+	padding: 10px 0px;
+	text-align: center;
+	word-spacing: 15px;
+    background-color: #030200;
+    margin-bottom: 5px;
+}
+
+#menu a {
+    color: white;
+}
+/*FORMATAÇÃO DO LINK*/
+
+.cabecalho{
+	height: 200px;
+	margin: 5px 0px;
+} 
+
+.cabecalho img{
+	width: 960px;
+	height: 200px;
+}
+
+#conteudo{
+	width: 960px;
+}
+
+#principal{
+	height: auto;
+	width: 680px;
+	float: left;
+	margin: 5px 0px 10px 0px;
+	padding: 5px;
+    background-color: #fffcfb;
+}
+
+.lateral{
+    text-align: left;
+    position: relative;
+	width: 255px;
+	border-radius: 5px; 
+	font-size: 15px;
+	float: right;
+	padding: 3px;
+	height: 410px;
+	margin: 5px 4px 5px 5px;
+    background-color: #030200;
+}
+
+.lateral h5 {
+    margin-top: 2px;
+}
+
+.lateral p {
+   color: white;
+}
+
+.lateral img{
+    position: relative;
+	bottom: 10px;
+    left: 7px;
+	width: 95%;
+	height: 50%;
+    border-radius: 2px;
+}
+
+#rodape{
+    position: relative;
+	width: 960px;
+	height: 80px;
+	clear: both;
+	text-align: center;
+    background-color: #f7efef;
+}
+
+#rodape span{
+    position: relative;
+    bottom: 20px;
+    font-size: 0.9rem;
+}
+
+#pagina{
+	margin: 15px auto;
+	border: 2px solid #f13d25;
+	width: 960px;
+}
